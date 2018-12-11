@@ -1,0 +1,44 @@
+{
+  "name": "IndigenFrontTestRepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "moment": "^2.22.2",
+    "node-sass": "^4.10.0",
+    "react": "^16.6.3",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-animate-on-change": "^2.1.1",
+    "react-dom": "^16.6.3",
+    "react-jss": "^8.6.1",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultRizzo/IndigenFrontTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThibaultRizzo/IndigenFrontTest/issues"
+  },
+  "homepage": "https://github.com/ThibaultRizzo/IndigenFrontTest#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
