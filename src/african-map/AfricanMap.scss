@@ -70,6 +70,7 @@ path.country {
     fill: #ffa472;
     &:hover,
     &:active {
+      stroke: white;
       fill: black;
     }
   }
@@ -77,9 +78,9 @@ path.country {
 
 section#african-map-app {
   position: absolute;
-  top: 0;
+  bottom: 0;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: flex-end;
 
@@ -89,7 +90,7 @@ section#african-map-app {
   }
 
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   transition: all 2s;
 }
 
@@ -161,4 +162,23 @@ section#african-map-app {
 .video-leave.video-leave-active {
   filter: brightness(0%);
   transition: filter 500ms ease-in;
+}
+
+@media screen and (max-width: 1000px) {
+  .african-map {
+    transform: scale(1);
+  }
+
+  section#african-map-app {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .country-details {
+    width: 300px;
+  }
+  .african-map {
+    transform: scale(1.5);
+  }
 }
